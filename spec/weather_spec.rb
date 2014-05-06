@@ -13,6 +13,14 @@ describe Weather do
   end
 
   it "should return the 7 day forecast for Boulder, CO" do
-    expect(@current_weather.seven_day_forecast).to eq ["scattered clouds", "broken clouds", "light rain", "moderate rain", "light rain", "moderate rain", "light rain"]
+    expect(@current_weather.seven_day_forecast).to eq [
+                                                        "scattered clouds",
+                                                        "broken clouds",
+                                                        "light rain",
+                                                        "moderate rain",
+                                                        "light rain",
+                                                        "moderate rain",
+                                                        "light rain"
+                                                      ]
   end
 end

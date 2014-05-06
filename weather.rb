@@ -25,6 +25,4 @@ class Weather
       week_forecast << day["weather"].first["description"]
     end
   end
-
-
 end

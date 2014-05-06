@@ -23,8 +23,6 @@ class Weather
 
     forecast_data["list"].each_with_object([]) do |day, week_forecast|
       week_forecast << day["weather"].first["description"]
-      require "pp"
-      pp week_forecast
     end
   end
 
